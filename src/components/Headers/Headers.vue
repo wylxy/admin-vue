@@ -158,7 +158,7 @@ export default {
             switch(command){
                 case 'github':
 
-                    window.open('https://github.com/cgq001/admin-menu/tree/2.0')
+                    window.open('https://github.com/wylxy/admin-vue')
                 break;
                 case 'quit':
                     let src = this.$store.dispatch('user/resetToken')
@@ -196,7 +196,8 @@ export default {
         },
         // 去github
         goGithub(){
-            window.open('https://github.com/orgs/HarbinSoftware/repositories')
+            window.open('https://github.com/wylxy/textbook')
+            window.open('https://github.com/wylxy/admin-vue')
         }
     },
     mounted() {
